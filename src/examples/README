@@ -1,0 +1,27 @@
+sygnatura pliku wejsciowego:
+
+TIME  XCOE  VCOE
+N 
+
+dla kazdego z N obiektow:
+
+mass radius
+X  Y  Z
+V1 V2 V3
+
+
+
+TIME - oznacza probke czasowa po ktorej aktualizujemy pozycje obiektów. 
+	Zalecany przedział to mniej wiecej [0.001, 0.00001]. Należy pamietac 
+	ze wraz ze wzrostem tej wartosci, zmniejsza sie dokladność oraz zwieksza 
+	szybkość poruszania planet.
+	
+XCOE - stała przez którą mnożymy pozycje planet.
+VCOE - stała przez którą mnożymy prędkości planet.
+radius - promień, przedział około [0.01, 1].
+
+X,Y,Z - współrzędne. W przypadku 2d koniecznie powinny mieścić się w przedziale
+	[-1, 1] (Z oczywiście wynosi 0). W przypadku 3d i dużej głębi (np Z = -6) pozostałe współrzędne
+	również mogą wychodzić poza dany przedział.
+	
+V1,V2,V3 - prędkości początkowe.

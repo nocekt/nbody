@@ -1,0 +1,8 @@
+1. Projekt budujemy komenda make w głównym folderze.
+	1a. Prowizoryczne GUI zostało wykonane za pomocą qt - także wymagane jest posiadanie odpowienich zaleznosci.
+	1b. W razie niepowodzenia mozemy wykonac make jedynie w folderze nbody i uruchamiac odpowiednie programy z konsoli.
+	1c. W przypadku 1b uruchamiamy program w nastepujacy sposob: ./program  plik_wejsciowy
+
+2. W folderze examples znajduja sie przyklady oraz generator przykladowych plikow wejsciowych.
+	2a. Plik Readme w examples wyjasnia tworzenie plikow wejsciowych.
+	
